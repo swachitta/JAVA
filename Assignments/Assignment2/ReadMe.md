@@ -1,7 +1,6 @@
 Garbage Collection In Java
 
 
-
                 In java, garbage means unreferenced objects.
 The technique that handles deallocation of memory in java is known as Garbage collection in java. It works like this: when no references to an object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed. There is no explicit need to destroy objects as in C++. Garbage collection only occurs sporadically (if at all) during the execution of your program. It will not occur simply because one or more objects exist that are no longer used. 
 
@@ -12,4 +11,5 @@ protected void finalize( )
 { 
 // finalization code here 
 } 
+
 The Java run time calls that method whenever it is about to recycle an object of that class. Inside the finalize( ) method, you will specify those actions that must be performed before an object is destroyed. The garbage collector runs periodically, checking for objects that are no longer referenced by any running state or indirectly through other referenced objects. Right before an asset is freed, the Java run time calls the finalize( ) method on the object.
