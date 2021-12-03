@@ -1,3 +1,6 @@
+23 Nov 2021 - 30 Nov 2021
+
+
 Reflection in Java
 
 Reflection is the ability of a program to analyze itself. The java.lang.reflect package provides the ability to obtain the information about the fields,constructors,methods, and modifiers of a class.Normally such information is needed to build software tools that enable us to do work with Java Beans components. The tools use reflection to determine dynamically the characteristics of a component.
