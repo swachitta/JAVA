@@ -1,14 +1,14 @@
 
-// parameterizeddd
+// parameterized
 class Pcon {
 
   String fname;
 
  
    Pcon(String name) {
-   name = "aashish";
+   name = "anmsr";
     fname = name;
-    System.out.println(fname + "aashish");
+    System.out.println(fname + "aapet");
     
  
   }
@@ -16,7 +16,7 @@ class Pcon {
   public static void main(String[] args) {
 
     
-    Pcon obj = new Pcon("aashish");
+    Pcon obj = new Pcon("aapet");
 
   }
 }
