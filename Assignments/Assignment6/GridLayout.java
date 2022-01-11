@@ -102,4 +102,3 @@ class GridLayoutDemo extends JFrame{
         new GridLayoutDemo();
     }
 }
-}
