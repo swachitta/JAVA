@@ -1,4 +1,4 @@
-# ASSIGNMENT GIVEN: JAN 18, DEADLINE: JAN 20
+# ASSIGNMENT GIVEN: JAN 19, DEADLINE: JAN 21
 
 # Java Socket Programming
 Java Socket programming is used for communication between the applications running on different JRE. Java Socket programming can be connection-oriented or connection-less.
